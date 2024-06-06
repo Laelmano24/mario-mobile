@@ -95,3 +95,24 @@ to{right: 100%;}
     }
 
 }
+
+@media screen and (max-height: 700px) and (min-height: 100px){
+    body {
+        display: flex;
+    }
+    .game-board {
+        height: 95vh;
+    }
+    .game-board > .clouds {
+        width: 50%;
+        
+    }
+    .button-container {
+        display: flex;
+        align-items: center;
+        padding: 35px;
+        height: 95vh;
+    }
+
+
+}
