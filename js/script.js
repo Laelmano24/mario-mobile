@@ -40,10 +40,10 @@ const loop = setInterval(()=>{
 
        clearInterval('loop');
        
-       game_board.style.display = "none"
-       button_container.style.display = "none"
        
-       death_container()
+       setTimeout(() => {
+         death_container()
+       }, 200)
        
     }
 
@@ -60,6 +60,10 @@ function death_container() {
   const button_volta = document.createElement("button")
   
   const h2 = document.createElement("h2")
+  
+  game_board.style.display = "none"
+  button_container.style.display = "none"
+  
   
   display_death.classList.add("death-container")
   container_button_death.classList.add("container-button-death")
