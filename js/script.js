@@ -43,7 +43,7 @@ const loop = setInterval(()=>{
        
        setTimeout(() => {
          death_container()
-       }, 200)
+       },200)
        
     }
 
